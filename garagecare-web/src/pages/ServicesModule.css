@@ -1,0 +1,295 @@
+.service-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 22px;
+}
+
+.service-stat,
+.services-panel,
+.service-offer-card {
+  background: white;
+  border: 1px solid #D8E2EA;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(15, 45, 63, .08);
+}
+
+.service-stat {
+  padding: 22px;
+}
+
+.service-stat span {
+  color: #64748B;
+  display: block;
+}
+
+.service-stat strong {
+  display: block;
+  color: #0F2D3F;
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+.services-panel {
+  padding: 28px;
+  margin-bottom: 22px;
+}
+
+.services-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 230px;
+  gap: 24px;
+}
+
+.services-search {
+  min-height: 64px;
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  align-items: center;
+  border: 1px solid #CFE0EA;
+  border-radius: 16px;
+  padding: 0 18px;
+}
+
+.services-search span {
+  color: #536587;
+  font-size: 28px;
+}
+
+.services-search input {
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.service-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.service-form-grid textarea,
+.active-check,
+.service-form-actions {
+  grid-column: 1 / -1;
+}
+
+.active-check {
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #0F2D3F;
+  font-weight: 900;
+}
+
+.active-check input {
+  width: 20px;
+  min-height: 20px;
+}
+
+.service-form-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
+.secondary-button {
+  min-height: 44px;
+  border: 1px solid #D8E2EA;
+  border-radius: 14px;
+  background: white;
+  color: #F97316;
+  font-weight: 900;
+  padding: 0 18px;
+}
+
+.services-list-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.services-list-header h2 {
+  margin: 0;
+  color: #0F2D3F;
+}
+
+.services-list-header span {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #EEF6FF;
+  color: #2563EB;
+  font-weight: 900;
+}
+
+.services-catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.service-offer-card {
+  padding: 24px;
+}
+
+.service-offer-card.inactive {
+  opacity: .55;
+}
+
+.service-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  background: #EAF6FB;
+  color: #0F2D3F;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.service-status {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #F1F5F9;
+  color: #64748B;
+  font-weight: 900;
+}
+
+.service-status.active {
+  background: #E8FAF0;
+  color: #06843f;
+}
+
+.service-offer-card h3 {
+  color: #0F2D3F;
+  font-size: 22px;
+  margin: 18px 0 6px;
+}
+
+.service-category {
+  color: #64748B;
+  margin: 0;
+}
+
+.service-divider {
+  border-top: 1px dashed #D8E2EA;
+  margin: 22px 0;
+}
+
+.service-price-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.service-price-row span {
+  color: #0F2D3F;
+}
+
+.service-price-row strong {
+  color: #F97316;
+  font-size: 24px;
+}
+
+.service-description {
+  color: #536587;
+  line-height: 1.45;
+  min-height: 58px;
+}
+
+.service-advice {
+  border-radius: 16px;
+  background: #F8FBFD;
+  border: 1px solid #E5EEF3;
+  padding: 14px;
+  margin-top: 14px;
+}
+
+.service-advice strong {
+  color: #0F2D3F;
+}
+
+.service-advice p {
+  color: #64748B;
+  margin: 6px 0 0;
+}
+
+.service-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.mini-button {
+  min-height: 38px;
+  border: 1px solid #D8E2EA;
+  border-radius: 12px;
+  background: white;
+  color: #0F2D3F;
+  font-weight: 800;
+  padding: 0 12px;
+}
+
+.mini-button.danger {
+  color: #DC2626;
+  background: #FEF2F2;
+  border-color: #FFCACA;
+}
+
+.service-notice {
+  margin-bottom: 22px;
+  border-radius: 18px;
+  padding: 18px 22px;
+  border: 1px solid #B9E7FF;
+  background: #EAF6FB;
+  color: #0F2D3F;
+  font-weight: 800;
+}
+
+.service-notice.danger {
+  border-color: #FFCACA;
+  background: #FEF2F2;
+  color: #DC2626;
+}
+
+.service-empty {
+  border: 1px dashed #CFE0EA;
+  border-radius: 16px;
+  padding: 24px;
+  color: #64748B;
+  background: #F8FBFD;
+}
+
+@media (max-width: 1000px) {
+  .service-stats,
+  .services-catalog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .services-toolbar,
+  .service-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .service-stats,
+  .services-catalog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-form-actions {
+    display: grid;
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "GarageCare Offline",
+  "short_name": "GarageCare",
+  "description": "Application offline-first de gestion de garage : clients, véhicules, devis, stock, charges et tableau de bord.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "fr",
+  "categories": [
+    "business",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "/assets/garagecare/icone_garage.png",
+      "sizes": "1536x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/garagecare/pwa.png",
+      "sizes": "1600x1000",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
