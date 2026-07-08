@@ -47,3 +47,11 @@ _backups/
 *.backup_*
 *.bak
 *.orig
+
+# Python / Selenium local
+.venv*/
+__pycache__/
+*.pyc
+
+# Selenium screenshots local
+screenshots/selenium/
